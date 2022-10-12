@@ -8,25 +8,17 @@ html{
     --Very-Dark-Magenta: hsl(300, 43%, 22%);
     --Soft-Pink: hsl(333, 80%, 67%);
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
-    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
     --White: hsl(0, 0%, 100%);
     font-size: 15px;
 }
 body{
-    padding: 5rem;
-}
-main{
-    max-width: 100rem;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
 }
 .top-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 20vh;
     margin-top: 2rem;
     margin-bottom: 7rem;
 }
@@ -34,7 +26,7 @@ main{
     width: 28%;
 }
 .rate-container{
-    height: 100%;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,4 +106,38 @@ dd{
 .comment3{
     margin-top: 2rem;
     margin-left: 2rem;
+}
+@media (max-width:600px){
+    main{
+        width: 100%;
+        
+    }
+    .top-container{
+        flex-direction: column;
+        margin-bottom: 9rem;
+    }
+    .main-description{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .stars-container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .star2, .star3{
+        margin: 0;
+    }
+    .stars-container > p{
+        margin: .5rem 0;
+    }
+    .bottom-container{
+        flex-direction: column;
+    }
+    .buyer-comments-container{
+        width: 100%;
+    }
+    .comment2, .comment3{
+        margin: 1rem 0;
+    }
 }
