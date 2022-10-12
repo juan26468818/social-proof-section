@@ -24,15 +24,16 @@ main{
 .top-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 20vh;
+    margin-top: 2rem;
     margin-bottom: 7rem;
 }
 .main-description{
     width: 28%;
 }
 .rate-container{
-    margin-top: 1rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ main{
     margin-left: 6rem;
 }
 h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--Very-Dark-Magenta);
     margin-bottom: 2rem;
 }
@@ -77,7 +78,7 @@ h1{
     background-color: var(--Very-Dark-Magenta);
     padding: 2rem;
     border-radius: .5rem;
-    height: 100%;
+    height: 90%;
 
 }
 .buyer-description{
