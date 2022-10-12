@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+html{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+body{
+    padding: 5rem;
+}
+main{
+    max-width: 100rem;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 7rem;
+}
+.main-description{
+    width: 28%;
+}
+.rate-container{
+    margin-top: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stars-container{
+    display: flex;
+    align-items: center;
+}
+.stars-container > img{
+    margin-right: .5rem;
+}
+.stars-container > p{
+    margin-left: 1.5rem;
+    font-weight: bold;
+    color: var(--Very-Dark-Magenta)
+}
+
+.star2{
+    margin-left: 3rem;
+}
+.star3{
+    margin-left: 6rem;
+}
+h1{
+    font-size: 3rem;
+    color: var(--Very-Dark-Magenta);
+    margin-bottom: 2rem;
+}
+.main-description > p{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--Dark-Grayish-Magenta);
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+.buyer-comments-container{
+    width: 25%;
+    background-color: var(--Very-Dark-Magenta);
+    padding: 2rem;
+    border-radius: .5rem;
+    height: 100%;
+
+}
+.buyer-description{
+    display: flex;
+    align-items: center;
+}
+.buyer-img{
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+dl{
+    line-height: 1.2rem;
+}
+dt{
+    color: var(--White);
+    font-weight: 500;
+}
+dd{
+    color: var(--Soft-Pink);
+    font-weight: 400;
+    opacity: .8;
+}
+.buyer-comments-container > p{
+    color: var(--White);
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.comment2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.comment3{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
